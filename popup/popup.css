@@ -1,0 +1,79 @@
+body {
+  height: 400px;
+  width: 300px;
+  background-color: indianred;
+}
+
+button {
+  margin: auto;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  padding: 5px 10px;
+  outline: none;
+  border: 0;
+  background-color: azure;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+}
+
+#timer-text-div {
+  display: flex;
+  justify-content: center;
+}
+
+#timer-text {
+  margin: 25px auto 25px auto;
+}
+
+#actions-btn {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+#task-div {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 5px;
+}
+
+#task-input {
+  width: 100%;
+  margin-right: 10px;
+  border: 0;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 0.5rem;
+  font-weight: 700;
+  padding: 0px 10px;
+}
+
+#task-delete-btn {
+  border: 0;
+  border-radius: 0.5rem;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+#task-container {
+  overflow: overlay;
+  overflow-x: hidden;
+  height: 240px;
+  width: 300px;
+}
+
+#task-container::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+/* color of the tracking area */
+/* #task-container::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.8); 
+} */
+
+#task-container::-webkit-scrollbar-thumb {
+  background-color: black; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid; /* creates padding around scroll thumb */
+}
